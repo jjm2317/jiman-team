@@ -6,3 +6,40 @@
   clip: rect(0, 0, 0, 0);
   clip-path: polygon(0 0, 0 0, 0 0);
 }
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.user-list {
+  display: flex;
+}
+
+.user-list a {
+  display: block;
+  padding: 5px 10px;
+}
+.button {
+  width: 30px;
+  height: 30px;
+}
+.button span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: 1px solid;
+}
+.j {
+  display: block;
+  border: 1px solid;
+  padding:10px 15px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #eee;
+  margin-left: 10px;
+  background-color: rgb(17, 85, 204);
+}
